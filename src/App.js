@@ -1,9 +1,11 @@
-import data from "./json/Data";
+
+import Header from "./components/Header";
 const App = () => {
-  const { items } = data;
+  
   return (
   <div>
-    App
+    <Header />
+  
   </div>
   );
 }
