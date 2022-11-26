@@ -1,4 +1,4 @@
-import logo from '../images/logo.svg'
+import Hlogo from '../images/logo.svg'
 const Header = () => {
     return (
     <div>
@@ -10,7 +10,7 @@ const Header = () => {
             <i className="fa-solid fa-toggle-on"></i>
           </button>
         </span>
-        <img src={logo} alt="Store logo" />
+        <img src={Hlogo} alt="Store logo" />
         <div className="cart-btn relative cursor-pointer">
             <span className="nav-icon">
                 <i className="fas fa-cart-plus"></i>
