@@ -10,6 +10,7 @@ const Header = () => {
             <i className="fa-solid fa-toggle-on"></i>
           </button>
         </span>
+        {/* Comfy House logo */}
         <img src={Hlogo} alt="Store logo" />
         <div className="cart-btn relative cursor-pointer">
             <span className="nav-icon">
