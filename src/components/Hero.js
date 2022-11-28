@@ -3,7 +3,6 @@ const Hero = () => {
     return (
         <div>
              {/*  Hero Section */}
-            
        <header className="hero  flex justify-center items-center">
       <div className="banner inline-block text-center animate__animated animate__bounceInLeft">
       <h1 className="banner-title  flex font-body uppercase text-black">Kash Collections</h1>
