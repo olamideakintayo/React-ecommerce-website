@@ -1,11 +1,12 @@
+import 
 import Hero from "./components/Hero"
 import Header from "./components/Header";
 const App = () => {
   
   return (
-  <div>
+    <div>
     <Header />
-  <Hero />
+    <Hero />
   </div>
   );
 }
