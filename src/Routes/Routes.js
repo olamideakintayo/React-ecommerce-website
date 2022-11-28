@@ -1,16 +1,16 @@
+import React from "react";
 import Products from "../products/Products";
-import { Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-const Routes = () => {
+const Routess = ({items}) => {
     return (
-        <div>
-            <Switch>
+        
+            <Routes>
                 {/* Whenever we go to the path "/", Products items will be displayed on our screen */}
-                <Route path="/" exact>
-                    <Products />
-                </Route>
-            </Switch>
-        </div>
+                <Route path="/" element={<Products  items={items}/>}/>
+                    {/* We also pass the productitems as props to the product component */}
+            </Routes>
+        
     );
 };
-export default Routes;
+export default Routess;
