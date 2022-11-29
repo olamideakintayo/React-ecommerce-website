@@ -1,11 +1,13 @@
-const data = {
+import Product1 from '../images/product-1.jpeg';
+import Product2 from '../images/product-2.jpeg'
+;const data = {
          
         items: [
           {
                id: "1",
                title: "queen panel bed",
                price: 10.99,
-               image: "../images/product-1.jpeg",
+               image: Product1,
               inStock: true
           },
 
@@ -13,7 +15,7 @@ const data = {
                id: "2",
                title: "king panel bed",
                price: 12.99,
-               image:  "../images/product-2.jpeg",
+               image:  Product2,
                inStock: true
             },
         
