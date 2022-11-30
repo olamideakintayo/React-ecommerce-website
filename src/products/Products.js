@@ -1,4 +1,5 @@
-
+import '../styles/input.css'
+import '../styles/main.css'
 
 
 const Products = ({items}) => {
