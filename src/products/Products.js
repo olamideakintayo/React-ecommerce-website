@@ -15,6 +15,7 @@ const Products = ({items}) => {
 {/* We then create a map function that whenever we call it, it will create a new array from the existing array and display the items */ }
 {items.map((item) =>(
                 <div className=""> 
+                <article className="product relative">
                        <div className="">
                         <img className="" src={item.image} alt={item.title} />
                     </div>
@@ -23,6 +24,7 @@ const Products = ({items}) => {
                             {item.price}
                         </h3>
                     </div>
+                    </article>
                 </div>
             ))}
         </div>
